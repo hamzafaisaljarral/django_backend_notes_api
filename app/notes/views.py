@@ -98,4 +98,5 @@ class FilterAPIView(generics.ListCreateAPIView):
     filter_backends = (filters.SearchFilter,)
     queryset = Notes.objects.all()
     serializer_class = NotesSerializer
+    permission_classes = (permissions.IsAuthenticated, IsSameUserOrAdmin, IsNotBanned,)
 
