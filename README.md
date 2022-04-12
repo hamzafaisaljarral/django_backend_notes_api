@@ -34,3 +34,13 @@ required for completing the challenge.
 ### What if I don't finish?
 
 Try to produce something that is at least minimally functional. Part of the exercise is to see what you prioritize first when you have a limited amount of time. For any unfinished tasks, please do add `TODO` comments to your code with a short explanation. You will be given an opportunity later to go into more detail and explain how you would go about finishing those tasks.
+
+### To test the api and run them 
+list of main api
+http://127.0.0.1:8000/api/v1/users/auth/login/ (to login)
+http://127.0.0.1:8000/api/v1/users/auth/register/ (to register your self)
+http://127.0.0.1:8000/api/v1/users/auth/logout/ (to logout from account)
+http://127.0.0.1:8000/api/v1/ (can see the login user list of notes and add the new notes using it )
+http://127.0.0.1:8000/api/v1/update/(id) (to call update api)
+http://127.0.0.1:8000/api/v1/delete/(id) (to call delete api)
+http://127.0.0.1:8000/api/v1/notes/filter/?search=created (to filter your notes on base of tags)
